@@ -2,12 +2,12 @@
   "name": "tests",
   "version": "1.0.0",
   "description": "project for storing postman tests",
-  "main": "index.js",
+  "directories":{
+    "test":"tests"
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api-tests-productionest": "newman run tests/Jsonplaceholder.com.postman_collection.json"
   },
   "author": "Murugan",
-  "license": "ISC",
   "dependencies": {
     "newman": "^4.0.2"
   }
