@@ -4,6 +4,7 @@
   "description": "project for storing postman tests",
   "directories":{
     "test":"tests"
+  },
   "scripts": {
     "api-tests-productionest": "newman run tests/Jsonplaceholder.com.postman_collection.json"
   },
